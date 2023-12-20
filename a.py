@@ -1,8 +1,8 @@
-num=int(input("how many number"))
-sum=0
-for n in range(num):
-     number=int(input("enter no:"))
-     sum=sum+number
-avg=sum/num
-print("sum of number:",sum)
-print("average of number:",avg)
+n=int(input("enter no"))
+if n>=0:
+    if n==0:
+        print('no is zero')
+    else:
+        print("no is positive")
+else:
+    print("no is negative")
